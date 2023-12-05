@@ -1,0 +1,7 @@
+services:
+  asir_miapache:
+    container_name: asir_miapache
+    image: miapache:latest
+    ports:
+      - "80:80"
+    # Mapeamos el puerto 80 de la máquina con el 80 del contenedor
